@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+
+	"name": "Улучшайзер cian.ru",
+	"description": "Повышение наглядности результатов поиска сайта cian.ru",
+	"version": "1.0",
+
+	"content_scripts":
+	[
+		{
+			"matches": ["http://www.cian.ru/cat.php?*"],
+			"js": ["jquery-1.9.1.min.js", "search_results.js"],
+			"run_at": "document_end"
+		}
+	]
+}
