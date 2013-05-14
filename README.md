@@ -2,6 +2,8 @@
 
 Расширение Chrome для повышения наглядности результатов поиска сайта cian.ru
 
+[Установить из **Chrome Web Store**](https://chrome.google.com/webstore/detail/pkbbhnaojnlakngipbhgelhmicnnjmlo)
+
 ## Authors
 
 **Mikhail Fedosov**
