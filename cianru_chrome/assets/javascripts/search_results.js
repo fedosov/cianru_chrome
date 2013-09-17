@@ -1,6 +1,6 @@
 jQuery(function($)
 {
-	$("a[href^='/showphoto.php']").each(function()
+	$("a[href^='http://www.cian.ru/rent/flat/']").each(function()
 	{
 		var self = $(this);
 		$.ajax(
@@ -11,7 +11,7 @@ jQuery(function($)
 		{
 			var row = $("<tr>");
 			var col = $("<td colspan='10'>");
-			var photos = $(data).find("#photos").clone();
+			var photos = $(data).find(".object_descr_images_w").clone();
 			photos.find("img").each(function()
 			{
 				$(this).attr("height", "200");
