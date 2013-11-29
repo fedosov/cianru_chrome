@@ -1,16 +1,16 @@
 {
-	"manifest_version": 2,
+    "manifest_version": 2,
 
-	"name": "Улучшайзер cian.ru",
-	"description": "Повышение наглядности результатов поиска сайта cian.ru",
-	"version": "1.0.3",
+    "name": "Улучшайзер cian.ru",
+    "description": "Повышение наглядности результатов поиска сайта cian.ru",
+    "version": "1.0.4",
 
-	"content_scripts":
-	[
-		{
-			"matches": ["http://www.cian.ru/cat.php?*"],
-			"js": ["vendor/assets/javascripts/jquery-1.10.2.min.js", "assets/javascripts/search_results.js"],
-			"run_at": "document_end"
-		}
-	]
+    "content_scripts":
+    [
+        {
+            "matches": ["http://www.cian.ru/cat.php?*"],
+            "js": ["vendor/assets/javascripts/jquery-1.10.2.min.js", "assets/javascripts/search_results.js"],
+            "run_at": "document_end"
+        }
+    ]
 }
