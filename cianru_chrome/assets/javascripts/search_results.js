@@ -12,12 +12,17 @@ jQuery(function($)
         })
         .done(function(data)
         {
-            var row = $("<tr>");
-            var col = $("<td colspan='10'>");
-            var photos = $(data).find(".object_descr_images_w").clone();
+            var row = $("<tr>"),
+                col = $("<td colspan='10'>"),
+                photos = $(data).find(".object_descr_images_w").clone()
+            ;
             photos.find("img").each(function()
             {
                 $(this).attr("height", "200");
+            });
+            photos.find("a").each(function()
+            {
+                $(this).attr("target", "_blank");
             });
             col.append(photos);
             row.append(col);
