@@ -3,7 +3,7 @@
 
     "name": "Улучшайзер cian.ru",
     "description": "Повышение наглядности результатов поиска сайта cian.ru",
-    "version": "1.0.4",
+    "version": "1.0.5",
 
     "content_scripts":
     [
