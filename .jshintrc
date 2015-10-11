@@ -1,6 +1,5 @@
 {
     "curly": true,
-    "camelcase": true,
     "indent": 4,
     "quotmark": "double"
 }
