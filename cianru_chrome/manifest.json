@@ -3,12 +3,12 @@
 
     "name": "Улучшайзер cian.ru",
     "description": "Повышение наглядности результатов поиска сайта cian.ru",
-    "version": "1.1.1",
+    "version": "1.1.2",
 
     "content_scripts":
     [
         {
-            "matches": ["http://www.cian.ru/cat.php?*"],
+            "matches": ["http://www.cian.ru/*"],
             "js": [
                 "vendor/assets/javascripts/jquery-1.10.2.min.js",
                 "assets/javascripts/search_results.js"
